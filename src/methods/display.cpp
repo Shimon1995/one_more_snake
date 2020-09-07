@@ -9,5 +9,5 @@ void Display::display() {
 
   mvprintw(this->food_point.x, this->food_point.y, "f");
 
-  mvprintw(0, 0, "Score: %d", this->score);
+  mvprintw(this->display_with - 1, 0, "Score: %d", this->score);
 }

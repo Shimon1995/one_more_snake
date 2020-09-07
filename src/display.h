@@ -4,6 +4,7 @@
 #include "enums/direction.h"
 class Display {
 private:
+  bool start_game;
   int display_with;
   int display_height;
   Snake s;
@@ -16,6 +17,7 @@ private:
   void detect_hit_direction();
   void tick();
   void display();
+  void main_menu();
 public:
   Display();
 };
