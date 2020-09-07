@@ -14,8 +14,8 @@ private:
   void eating_fruit();
   void expand_snake(point new_tail_point);
   void detect_hit_direction();
-public:
-  Display();
   void tick();
   void display();
+public:
+  Display();
 };
