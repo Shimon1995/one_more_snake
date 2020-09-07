@@ -1,6 +1,4 @@
-#include "model_components/passing_obstacle.cpp"
-#include "model_components/switch_direction.cpp"
-#include "model_components/tail_following.cpp"
+#include "model_components/mod_comp.h"
 #include "../display.h"
 #include "../enums/direction.h"
 void Display::tick() {

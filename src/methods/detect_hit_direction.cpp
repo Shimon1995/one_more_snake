@@ -1,7 +1,10 @@
+#include <conio.h>
 #include "../display.h"
 #include "../enums/direction.h"
-void Display::detect_hit_direction(char c) {
-  switch (c) {
+void Display::detect_hit_direction() {
+  // keypad(stdscr, true);
+  if ( kbhit() )
+  switch ( getch() ) {
   case 65:
   case 'k':
     if (this->s.d != Direction::DOWN || this->s.tail.size() ==  0)

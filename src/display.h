@@ -13,11 +13,9 @@ private:
   void generate_food();
   void eating_fruit();
   void expand_snake(point new_tail_point);
+  void detect_hit_direction();
 public:
-  Display(int height, int width);
+  Display();
   void tick();
   void display();
-  void detect_hit_direction(char c);
-  //maybe isn't gonna be used
-  // void change_snake_direction(Direction d);
 };
