@@ -19,6 +19,7 @@ private:
   void tick();
   void display();
   void main_menu();
+  void pause();
   void end_game();
 public:
   Display();

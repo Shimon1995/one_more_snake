@@ -33,5 +33,8 @@ void Display::detect_hit_direction() {
     break;
   case 'd':
     this->s.health--;
+    break;
+  case 32:
+    this->pause();
   }
 }
