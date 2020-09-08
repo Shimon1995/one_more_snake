@@ -6,5 +6,5 @@ point Display::point_to_follow() {
   // } else if (this->s.tail.size() > 1) {
   //   return this->s.tail[this->s.tail.size() - 1];
   // }
-  return { 10, 10 };
+  return { -1, -1 };
 }

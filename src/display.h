@@ -5,6 +5,7 @@
 class Display {
 private:
   bool start_game;
+  bool game_over;
   int display_with;
   int display_height;
   Snake s;
@@ -18,6 +19,7 @@ private:
   void tick();
   void display();
   void main_menu();
+  void end_game();
 public:
   Display();
 };

@@ -7,5 +7,6 @@ struct Snake {
   point head;
   vector<point> tail;
   int max_lenght;
+  int health;
   Direction d;
 };
